@@ -72,6 +72,7 @@ dns_name = "$subdomain.$domain"
 
 tls_www_server
 encryption_key
+dns_name = "$subdomain"
 EOF
 for additional_name in "$@"
 do
